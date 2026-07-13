@@ -1,0 +1,20 @@
+[
+  {
+    "file": "/autodl-fs/data/mingyu/demo2_falling_baton_indoor_floor_10k/archives/demo2_falling_baton_indoor_floor_episodes_00000_00000.tar.gz.part000",
+    "name": "demo2_falling_baton_indoor_floor_episodes_00000_00000.tar.gz.part000",
+    "bytes": 94371840,
+    "sha256": "57fcb5e3cdd589087b1dcdcf7d5d6651c4aa1c86cd4691ad9fed6665500dd4c4"
+  },
+  {
+    "file": "/autodl-fs/data/mingyu/demo2_falling_baton_indoor_floor_10k/archives/demo2_falling_baton_indoor_floor_episodes_00000_00000.tar.gz.part001",
+    "name": "demo2_falling_baton_indoor_floor_episodes_00000_00000.tar.gz.part001",
+    "bytes": 30627126,
+    "sha256": "fef4075b27dca38234209e5037b430caa9bf6740a2fd2601d585d85b7b76b399"
+  },
+  {
+    "file": "/autodl-fs/data/mingyu/demo2_falling_baton_indoor_floor_10k/archives/demo2_falling_baton_indoor_floor_episodes_00000_00000.tar.gz.parts.sha256",
+    "name": "demo2_falling_baton_indoor_floor_episodes_00000_00000.tar.gz.parts.sha256",
+    "bytes": 408,
+    "sha256": "673e05cba605cb0d42a4fbdfb173d131fa958cfa1d36017bce92d331bfb66b3d"
+  }
+]
