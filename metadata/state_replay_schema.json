@@ -1,0 +1,39 @@
+{
+  "annotations": {
+    "bbox_format": "xyxy pixels, one compressed npz per camera view",
+    "camera_views": [
+      "overview",
+      "closeup",
+      "left_side",
+      "right_side",
+      "top",
+      "front",
+      "left_oblique",
+      "right_oblique"
+    ],
+    "mask_format": "COCO-style uncompressed RLE in gzip JSONL, one record per rendered video frame per camera view",
+    "video_overlay": "all retained mp4 videos include 2D boxes and translucent pixel-mask overlays"
+  },
+  "mesh_assets": {
+    "collision_mesh": "mesh_assets/<object>/collision_mesh.obj",
+    "per_episode_manifest": "mesh_assets/mesh_assets_manifest.json",
+    "requirement": "the saved mesh assets are part of the dataset and are used by replay validation/import tooling",
+    "visual_mesh": "mesh_assets/<object>/visual_mesh.obj"
+  },
+  "schema": "threedemo_replayable_state_mesh_bbox_mask_v1",
+  "state_import_contract": {
+    "physical_properties": "mass, center of mass, inertia diagonal, friction/contact metadata, force/torque disturbance metadata where applicable",
+    "pose_format": "world position xyz plus quaternion wxyz per simulation step",
+    "required_engine": "IsaacSim PhysX",
+    "state_manifest": "replay_state_exports/<episode>/replay_state_manifest.json",
+    "state_npz": "replay_state_exports/<episode>/replay_state.npz",
+    "validator": "code/verify_replay_state.py",
+    "velocity_format": "world linear velocity xyz and angular velocity xyz per simulation step"
+  },
+  "text_descriptions": {
+    "object_standard_description": "structured GenieSim-like per-object physical/visual/collision description",
+    "object_text_description": "plain-language per-object description",
+    "scene_standard_description": "structured scene/environment description",
+    "scene_text_description": "plain-language scene description"
+  }
+}
